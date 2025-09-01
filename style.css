@@ -127,6 +127,10 @@
 
 
     @media(max-width:425px) {
+       .flexcontainer{
+        width: 100%
+       }
+       
         .search, .icon2{
             display: none;
         }
@@ -135,6 +139,8 @@
             background-color: transparent;
             padding: 0;
             border: none;
+            margin-right: 60px;
+            margin-left: 60px;
         }
 
         .bell{
@@ -145,6 +151,7 @@
             font-size: 14px;
             font-weight: 400;
             padding: 3px 10px;
+            margin-right: 60px;
         }
 
     }
@@ -260,11 +267,8 @@
             grid-template-columns: repeat(2, 1fr);
             padding: 0px 8px;
             font-size: 13px;
-        }
-
-        .video_img {
-            width: 100%;
-            height: auto;
+            margin-left: 100px;
+            width: 100%
         }
 
         .timer {
@@ -286,11 +290,7 @@
         .grid-container {
             grid-template-columns: 1fr;
             font-size: 11px;
-        }
-
-        .video_img {
-            width: 100%;
-            height: auto;
+            width: 100%
         }
 
         .timer {
