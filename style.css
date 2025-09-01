@@ -80,6 +80,7 @@
     }
 
 
+
     .right{
         display: flex;
         align-items: right;
@@ -128,7 +129,8 @@
 
     @media(max-width:425px) {
        .flexcontainer{
-        width: 100%
+         width: 100%;
+         background-color: white;
        }
        
         .search, .icon2{
